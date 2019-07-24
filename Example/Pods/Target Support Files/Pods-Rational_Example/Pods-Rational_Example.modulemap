@@ -1,0 +1,6 @@
+framework module Pods_Rational_Example {
+  umbrella header "Pods-Rational_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

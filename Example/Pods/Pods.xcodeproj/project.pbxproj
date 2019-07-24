@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11078F4A0F1DCE2968C3003E37880FB3 /* Pods-Rational_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E08708B4EA1CF1CDC04892A1BD4735 /* Pods-Rational_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12B7279CE49808D9C7AB93DAA7267920 /* Rational-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB9701DF8E6DF4B57FC121C1C2F50F3 /* Rational-dummy.m */; };
+		42352A6C46631F335BEBC7934A9B8CE7 /* Date+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DEFFA9B4568573E58199AD5D9577DB /* Date+Utilities.swift */; };
+		521A26667765BE75979A2983FFEDEF4F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6FAC8480249820E4CAD2CD74AC5B /* StoreKit.framework */; };
+		5B1E9AA8699AED88219E5C86673375BA /* Pods-Rational_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C11886E3C9A6EC8BFA418AADB07EE0 /* Pods-Rational_Example-dummy.m */; };
+		6D91FB37C213DBD98F930A630FB8A0C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD54FC6341FAC83608AC7BA152A24981 /* Foundation.framework */; };
+		822E9C05FB185E7BA00E4E1BB6E14AC8 /* Rational-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0EFA3591DA8F389D43605FBB7DFCFE3 /* Rational-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86319C54956E119A0B4CCBE5995399E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD54FC6341FAC83608AC7BA152A24981 /* Foundation.framework */; };
+		A091354A00023A64092330DD7060EA2B /* RatingUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB95DCF8E57867C8EC2A389A14A418D /* RatingUtility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F2E2667019F7FC69DDF9881DEA2982F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 260C4948C77A62729C24984CFE0BDCFE;
+			remoteInfo = Rational;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E08708B4EA1CF1CDC04892A1BD4735 /* Pods-Rational_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rational_Example-umbrella.h"; sourceTree = "<group>"; };
+		0480E80017A4175830A1B908BA7250C1 /* Rational-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rational-prefix.pch"; sourceTree = "<group>"; };
+		056C78EF187CCD90CD4E9378E457B0F2 /* Pods_Rational_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rational_Example.framework; path = "Pods-Rational_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0946CD502F46FEA571D05400A21B58B8 /* Pods-Rational_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rational_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DB9701DF8E6DF4B57FC121C1C2F50F3 /* Rational-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Rational-dummy.m"; sourceTree = "<group>"; };
+		23C7D7B88369D2A057878A256E42000F /* Pods-Rational_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rational_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		24DEFFA9B4568573E58199AD5D9577DB /* Date+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Utilities.swift"; sourceTree = "<group>"; };
+		2FB95DCF8E57867C8EC2A389A14A418D /* RatingUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatingUtility.swift; path = Rational/Classes/RatingUtility.swift; sourceTree = "<group>"; };
+		36EE389CE7592D067DB0F5AC3E61D073 /* Rational.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Rational.modulemap; sourceTree = "<group>"; };
+		4D0C6FAC8480249820E4CAD2CD74AC5B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		544CC65E9589321D1F022C0B65F5D98B /* Pods-Rational_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rational_Example.release.xcconfig"; sourceTree = "<group>"; };
+		65BF0B3C63A752C4B5BA457B1569897E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		67C11886E3C9A6EC8BFA418AADB07EE0 /* Pods-Rational_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rational_Example-dummy.m"; sourceTree = "<group>"; };
+		74D1163D7FDC54C7C4725FF61263C460 /* Rational.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Rational.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E2BB4109F2D960DEE0FF28646DE1E64 /* Rational.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rational.xcconfig; sourceTree = "<group>"; };
+		9C11F4F45C7DEDDD5FDACFD187EA5C6A /* Pods-Rational_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rational_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FA48443F7BA5E660370BAC3EE098CCF /* Rational-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Rational-Info.plist"; sourceTree = "<group>"; };
+		A9D47BAB97E7C0063F05022CB5BEFEF7 /* Rational.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Rational.framework; path = Rational.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD54FC6341FAC83608AC7BA152A24981 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B01645DD730CFE45C6DA80462391E0FB /* Pods-Rational_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rational_Example.modulemap"; sourceTree = "<group>"; };
+		B0EFA3591DA8F389D43605FBB7DFCFE3 /* Rational-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rational-umbrella.h"; sourceTree = "<group>"; };
+		C3D63119BE0B9A476C6726F3E777BE27 /* Pods-Rational_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rational_Example-Info.plist"; sourceTree = "<group>"; };
+		ECB6FD6E888DA3FA07AB2A8C5E345861 /* Pods-Rational_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rational_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ED4899FD443FE12F9EEDA8CD26DBF94E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59FC8E962D27E8A1C42DB1D9A747C0AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86319C54956E119A0B4CCBE5995399E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7228681E4BBBD755D9CBCA2940382969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D91FB37C213DBD98F930A630FB8A0C7 /* Foundation.framework in Frameworks */,
+				521A26667765BE75979A2983FFEDEF4F /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036DA364DDD9097B6F5A6FCB84402F73 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B391E0BD5B5F5E1808D3A984B9A213CC /* Rational */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AA69E1BC49203D49AB06154110785E6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E2888D472A42F384E60843D24BA44FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056C78EF187CCD90CD4E9378E457B0F2 /* Pods_Rational_Example.framework */,
+				A9D47BAB97E7C0063F05022CB5BEFEF7 /* Rational.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A433CAC9E5FD8530ABA7268EA7E6C9 /* Pods-Rational_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B01645DD730CFE45C6DA80462391E0FB /* Pods-Rational_Example.modulemap */,
+				0946CD502F46FEA571D05400A21B58B8 /* Pods-Rational_Example-acknowledgements.markdown */,
+				23C7D7B88369D2A057878A256E42000F /* Pods-Rational_Example-acknowledgements.plist */,
+				67C11886E3C9A6EC8BFA418AADB07EE0 /* Pods-Rational_Example-dummy.m */,
+				9C11F4F45C7DEDDD5FDACFD187EA5C6A /* Pods-Rational_Example-frameworks.sh */,
+				C3D63119BE0B9A476C6726F3E777BE27 /* Pods-Rational_Example-Info.plist */,
+				00E08708B4EA1CF1CDC04892A1BD4735 /* Pods-Rational_Example-umbrella.h */,
+				ECB6FD6E888DA3FA07AB2A8C5E345861 /* Pods-Rational_Example.debug.xcconfig */,
+				544CC65E9589321D1F022C0B65F5D98B /* Pods-Rational_Example.release.xcconfig */,
+			);
+			name = "Pods-Rational_Example";
+			path = "Target Support Files/Pods-Rational_Example";
+			sourceTree = "<group>";
+		};
+		3AE154E6726FBDD20C73DAF0AAF7D26A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36EE389CE7592D067DB0F5AC3E61D073 /* Rational.modulemap */,
+				7E2BB4109F2D960DEE0FF28646DE1E64 /* Rational.xcconfig */,
+				0DB9701DF8E6DF4B57FC121C1C2F50F3 /* Rational-dummy.m */,
+				9FA48443F7BA5E660370BAC3EE098CCF /* Rational-Info.plist */,
+				0480E80017A4175830A1B908BA7250C1 /* Rational-prefix.pch */,
+				B0EFA3591DA8F389D43605FBB7DFCFE3 /* Rational-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Rational";
+			sourceTree = "<group>";
+		};
+		4AA69E1BC49203D49AB06154110785E6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD54FC6341FAC83608AC7BA152A24981 /* Foundation.framework */,
+				4D0C6FAC8480249820E4CAD2CD74AC5B /* StoreKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75C1B47F889B8347BE707CB3E76B1293 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				24DEFFA9B4568573E58199AD5D9577DB /* Date+Utilities.swift */,
+			);
+			name = Utilities;
+			path = Rational/Classes/Utilities;
+			sourceTree = "<group>";
+		};
+		805E2CD6B07DE5D998956DBC7D6F5D3E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22A433CAC9E5FD8530ABA7268EA7E6C9 /* Pods-Rational_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B391E0BD5B5F5E1808D3A984B9A213CC /* Rational */ = {
+			isa = PBXGroup;
+			children = (
+				2FB95DCF8E57867C8EC2A389A14A418D /* RatingUtility.swift */,
+				B9CD1257F7341CB507D82A262EA19D6F /* Pod */,
+				3AE154E6726FBDD20C73DAF0AAF7D26A /* Support Files */,
+				75C1B47F889B8347BE707CB3E76B1293 /* Utilities */,
+			);
+			name = Rational;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B9CD1257F7341CB507D82A262EA19D6F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				65BF0B3C63A752C4B5BA457B1569897E /* LICENSE */,
+				74D1163D7FDC54C7C4725FF61263C460 /* Rational.podspec */,
+				ED4899FD443FE12F9EEDA8CD26DBF94E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				036DA364DDD9097B6F5A6FCB84402F73 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				1E2888D472A42F384E60843D24BA44FC /* Products */,
+				805E2CD6B07DE5D998956DBC7D6F5D3E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DF946A219C78285567787BE607181607 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11078F4A0F1DCE2968C3003E37880FB3 /* Pods-Rational_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F3D613C42DD00869E6C742A91AC0F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822E9C05FB185E7BA00E4E1BB6E14AC8 /* Rational-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		260C4948C77A62729C24984CFE0BDCFE /* Rational */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80EBCC85A6943A9B644A4ACAFD3778B /* Build configuration list for PBXNativeTarget "Rational" */;
+			buildPhases = (
+				E3F3D613C42DD00869E6C742A91AC0F7 /* Headers */,
+				874B4FC21BDBE3C5616538A5656BF8B8 /* Sources */,
+				7228681E4BBBD755D9CBCA2940382969 /* Frameworks */,
+				E134F931DDD7E747FD54F08E50E3530D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rational;
+			productName = Rational;
+			productReference = A9D47BAB97E7C0063F05022CB5BEFEF7 /* Rational.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		900776A932FC27AF259BBE93FEA99285 /* Pods-Rational_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFEAA3C468F6EE3F3338B0C467B1C3A /* Build configuration list for PBXNativeTarget "Pods-Rational_Example" */;
+			buildPhases = (
+				DF946A219C78285567787BE607181607 /* Headers */,
+				C4CE396AD044E28DC10B728F70521E3F /* Sources */,
+				59FC8E962D27E8A1C42DB1D9A747C0AC /* Frameworks */,
+				7CC9AC2D42BC3258EE7A7ECEEE531632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A07460CB42EE71767272751DD75A2C8F /* PBXTargetDependency */,
+			);
+			name = "Pods-Rational_Example";
+			productName = "Pods-Rational_Example";
+			productReference = 056C78EF187CCD90CD4E9378E457B0F2 /* Pods_Rational_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1E2888D472A42F384E60843D24BA44FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900776A932FC27AF259BBE93FEA99285 /* Pods-Rational_Example */,
+				260C4948C77A62729C24984CFE0BDCFE /* Rational */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC9AC2D42BC3258EE7A7ECEEE531632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E134F931DDD7E747FD54F08E50E3530D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874B4FC21BDBE3C5616538A5656BF8B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42352A6C46631F335BEBC7934A9B8CE7 /* Date+Utilities.swift in Sources */,
+				A091354A00023A64092330DD7060EA2B /* RatingUtility.swift in Sources */,
+				12B7279CE49808D9C7AB93DAA7267920 /* Rational-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CE396AD044E28DC10B728F70521E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1E9AA8699AED88219E5C86673375BA /* Pods-Rational_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A07460CB42EE71767272751DD75A2C8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Rational;
+			target = 260C4948C77A62729C24984CFE0BDCFE /* Rational */;
+			targetProxy = 1F2E2667019F7FC69DDF9881DEA2982F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F5CE9157A6944C572608740FA41A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		468591809726E5DDCF6EE65960E59EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544CC65E9589321D1F022C0B65F5D98B /* Pods-Rational_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rational_Example/Pods-Rational_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rational_Example/Pods-Rational_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9160899898F103826D067B20FD3D4E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2BB4109F2D960DEE0FF28646DE1E64 /* Rational.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Rational/Rational-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rational/Rational-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rational/Rational.modulemap";
+				PRODUCT_MODULE_NAME = Rational;
+				PRODUCT_NAME = Rational;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B102853BB3392A16E68667C38114BC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EC0C8F9498C435DE2D3D2CD7E0A46C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB6FD6E888DA3FA07AB2A8C5E345861 /* Pods-Rational_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rational_Example/Pods-Rational_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rational_Example/Pods-Rational_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD3886ECE3EDC9B2E45AB6EF05D9CF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2BB4109F2D960DEE0FF28646DE1E64 /* Rational.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Rational/Rational-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rational/Rational-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rational/Rational.modulemap";
+				PRODUCT_MODULE_NAME = Rational;
+				PRODUCT_NAME = Rational;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5CE9157A6944C572608740FA41A6A5 /* Debug */,
+				B102853BB3392A16E68667C38114BC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFEAA3C468F6EE3F3338B0C467B1C3A /* Build configuration list for PBXNativeTarget "Pods-Rational_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0C8F9498C435DE2D3D2CD7E0A46C29 /* Debug */,
+				468591809726E5DDCF6EE65960E59EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80EBCC85A6943A9B644A4ACAFD3778B /* Build configuration list for PBXNativeTarget "Rational" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3886ECE3EDC9B2E45AB6EF05D9CF95 /* Debug */,
+				9160899898F103826D067B20FD3D4E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

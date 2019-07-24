@@ -1,0 +1,16 @@
+PODS:
+  - Rational (0.0.1)
+
+DEPENDENCIES:
+  - Rational (from `../`)
+
+EXTERNAL SOURCES:
+  Rational:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Rational: d9729895fd440a5c4ba317bc8c7cb848cd7b973e
+
+PODFILE CHECKSUM: 2eec16b26e5948bd871a594bdc43719cc62dd3f9
+
+COCOAPODS: 1.7.4
